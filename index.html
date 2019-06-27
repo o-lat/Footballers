@@ -2,19 +2,27 @@
 <html>
 	<head>
 		<title>Footballers</title>
-		<link href="assets/style.css" type="text/css">
+		<link rel="stylesheet" type="text/css" href="assets/style.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
 	<body>
-		<div class="wrapper">
-			<div class="container">
-				<div class="header">
-					<a href="/" alt="Footballers"><h1>Footballers</h1></a>
-				</div>
-    			<div class="menu">
-        			<a href="directory" alt="View directory">Directory</a>
-    			</div> 
-			</div>
-        </div> 
+		<div class="header">
+			<a href="/"><h1>Footballers</h1></a>
+		</div>
+		<div class="menu">
+			<table class="menu-items">
+				<tr>
+					<td>
+						<a href="directory">Directory</a>
+					</td>
+					<td>
+						<a href="https://github.com/o-lat">Projects</a>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="container">
+			<input type="text" id="search" class="search" placeholder="Search for a player..." />
+		</div>
 	</body>
 </html>
