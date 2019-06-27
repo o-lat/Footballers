@@ -18,6 +18,15 @@ h1 {
 	font-weight:bold;
 	line-height:10px;
 }
+a h1 {
+	color:#fff;
+	text-decoration:none;
+	font-size:54px;
+}
+a hr:hover {
+	cursor:pointer;
+	color:#ddd;
+}
 .menu {
 	float:left;
 	position:fixed;
